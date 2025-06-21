@@ -1,0 +1,36 @@
+.containerHeader {
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  padding: 24px 32px;
+  
+}
+
+.containerImage {
+  width: 50%;
+ display: flex;
+ justify-content: center;
+}
+
+.containerNav {
+  width: 50%;
+}
+
+.containerUl {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  
+}
+
+.containerLi{
+  padding-left: 16px;
+}
