@@ -1,5 +1,6 @@
 import "./globals.css";
-import { Header } from "../app/components/header"
+
+
 
 export const metadata = {
   title: "Turismo no Espirito Santo",
@@ -11,8 +12,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         
-        <Header />
-
         {children}
 
       </body>
