@@ -1,13 +1,15 @@
 .page {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
- 
+  
+  height: 100vh;
+}
+
+.sectionHeader{
+  height: 64px;
 }
 
 .sectionHome {
   display: flex;
-  height: 100vh;
+  height: calc(100% - 64px);  
 }
 
 .sectionImg {
@@ -17,7 +19,13 @@
 }
 
 .sectionDestino {
-  background-color: darkred;
+  display: flex;
+  justify-content: space-around;
+  background-color: #FFF;
   height: 600px;
 }
 
+.sectionDestinoPraia {
+  display: flex;
+  flex-direction: column;
+}

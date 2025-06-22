@@ -1,11 +1,17 @@
 import Link from "next/link"
 import styles from "./header.module.css"
+import Image from "next/image"
+
+import logo from '../../../../public/logoclaro.png'
 
 export function Header() {
   return (
     <header className={styles.containerHeader}>
       <div className={styles.container}>
-          <div className={styles.containerImage}>TURISMOES</div>
+          <div className={styles.containerImage}>
+            <Image src={logo} alt="logo" width={192} height={64} />
+          </div>
+          
           <nav className={styles.containerNav}>
               <ul className={styles.containerUl}>
                 <li className={styles.containerLi}>
@@ -15,7 +21,7 @@ export function Header() {
                 </li>
                 <li className={styles.containerLi}>
                   <Link href='#DESTINO' >
-                    DESTINO
+                    PRINCIPAIS DESTINOS
                   </Link>
                 </li>
                 <li className={styles.containerLi}>

@@ -37,7 +37,7 @@ export default function Home() {
 
   return (
     <div className={styles.page}>
-      <div>
+      <div className={styles.sectionHeader} >
         <Header />
       </div>
       
@@ -63,8 +63,61 @@ export default function Home() {
       </div>
            
       <div className={styles.sectionDestino} >
-        <h1 id="DESTINO" >DESTINOS</h1>
+        <div className={styles.sectionDestinoPraia} >
+          <Image />
+          <h1 id="DESTINO" >PRAIAS</h1>
+          <p>
+            O Espírito Santo possui múltiplas riquezas naturais de norte a sul de seu território. As opções variam de mar à montanha, das águas turvas dos manguezais às águas cristalinas das lagoas, de serras antigas cobertas por matas inexploradas a pontões rochosos, entre outros vários chamarizes que, em cada região do Estado, possuem características paisagísticas singulares que dão ao turista vastas possibilidades de apreciar e interagir com a natureza.
+          </p>
+          <h3>
+            Muitas opções: escolha a sua
+          </h3>
+          <p>
+            Com cerca de 410 quilômetros de extensão, o litoral do Espírito Santo tem os mais diversos tipos de praia, com dunas, desertas, semidesertas, com enseadas, com águas mornas e cristalinas e também com areia monazítica, muito utilizada para o uso medicinal.
+          </p>
+          <p>
+            A região metropolitana abriga praias como Guarapari, Curva da Jurema, Camburi, da Costa, Itapoã, Coqueiral de Itaparica, Jacaraípe e Manguinhos. Já a capital do Espírito Santo, Vitória, possui 105 quilômetros de praias.
+          </p>
+        </div>
+
+        <div className={styles.sectionDestinoEcoturismo} >
+          <Image />
+          <h1 id="DESTINO" >ECOTURISMO</h1>
+          <p>
+            O Espírito Santo possui múltiplas riquezas naturais de norte a sul de seu território. As opções variam de mar à montanha, das águas turvas dos manguezais às águas cristalinas das lagoas, de serras antigas cobertas por matas inexploradas a pontões rochosos, entre outros vários chamarizes que, em cada região do Estado, possuem características paisagísticas singulares que dão ao turista vastas possibilidades de apreciar e interagir com a natureza.
+          </p>
+          <h3>
+            Muitas opções: escolha a sua
+          </h3>
+          <p>
+            Com cerca de 410 quilômetros de extensão, o litoral do Espírito Santo tem os mais diversos tipos de praia, com dunas, desertas, semidesertas, com enseadas, com águas mornas e cristalinas e também com areia monazítica, muito utilizada para o uso medicinal.
+          </p>
+          <p>
+            A região metropolitana abriga praias como Guarapari, Curva da Jurema, Camburi, da Costa, Itapoã, Coqueiral de Itaparica, Jacaraípe e Manguinhos. Já a capital do Espírito Santo, Vitória, possui 105 quilômetros de praias.
+          </p>
+        </div>
+
+        <div className={styles.sectionDestinoAgroturismo} >
+          <Image />
+          <h1 id="DESTINO" >AGROTURISMO</h1>
+          <p>
+            O Espírito Santo possui múltiplas riquezas naturais de norte a sul de seu território. As opções variam de mar à montanha, das águas turvas dos manguezais às águas cristalinas das lagoas, de serras antigas cobertas por matas inexploradas a pontões rochosos, entre outros vários chamarizes que, em cada região do Estado, possuem características paisagísticas singulares que dão ao turista vastas possibilidades de apreciar e interagir com a natureza.
+          </p>
+          <h3>
+            Muitas opções: escolha a sua
+          </h3>
+          <p>
+            Com cerca de 410 quilômetros de extensão, o litoral do Espírito Santo tem os mais diversos tipos de praia, com dunas, desertas, semidesertas, com enseadas, com águas mornas e cristalinas e também com areia monazítica, muito utilizada para o uso medicinal.
+          </p>
+          <p>
+            A região metropolitana abriga praias como Guarapari, Curva da Jurema, Camburi, da Costa, Itapoã, Coqueiral de Itaparica, Jacaraípe e Manguinhos. Já a capital do Espírito Santo, Vitória, possui 105 quilômetros de praias.
+          </p>
+        </div>     
       </div>
+
+      
+
+      
     </div>
   );
 }
