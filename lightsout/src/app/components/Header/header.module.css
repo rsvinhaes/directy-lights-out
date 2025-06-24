@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   z-index: 3 ;
-  background-color: #FFF
+  background-color: #F3F3F3
 }
 
 .container {
@@ -32,7 +32,7 @@
   
 }
 
-.containerLi{
+.containerLi {
   padding-left: 32px;
   
 }
