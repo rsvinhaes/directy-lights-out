@@ -25,8 +25,8 @@ export function Header() {
                   </Link>
                 </li>
                 <li className={styles.containerLi}>
-                  <Link href='#CULINARIA'>
-                    CULINÁRIA
+                  <Link href='#EVENTOS'>
+                    CALENDÁRIO DE EVENTOS
                   </Link>
                 </li>
               </ul>

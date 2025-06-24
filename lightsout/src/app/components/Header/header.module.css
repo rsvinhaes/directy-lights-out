@@ -2,9 +2,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  z-index: 3 ;
-  background-color: #F3F3F3
+  width: 100vw;
+  z-index: 2;
+  background-color: #F3F3F3;  
 }
 
 .container {
@@ -16,8 +16,7 @@
 }
 
 .containerImage {
- 
-  display: flex;
+   display: flex;
   padding-left: 64px;
 }
 
@@ -28,11 +27,9 @@
 .containerUl {
   display: flex;
   justify-content: flex-end;
-  list-style-type: none;
-  
+  list-style-type: none;  
 }
 
 .containerLi {
-  padding-left: 32px;
-  
+  padding-left: 32px;  
 }

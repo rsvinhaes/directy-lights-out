@@ -2,6 +2,7 @@
 
 import { Header } from "../app/components/header"
 import Image from "next/image"
+import Link from "next/link"
 import styles from "./page.module.css"
 import React from 'react'
 
@@ -59,17 +60,17 @@ export default function Home() {
        
              {data.map((slideContent, index) => (
              <SwiperSlide key={slideContent} virtualIndex={index}>
-             <Image className={styles.sectionImg} src={slideContent.image} alt="slider" />
+                <Image className={styles.sectionImg} src={slideContent.image} alt="slider" />
              </SwiperSlide>
              ))}
         </Swiper>
       </div>
 
-      <div className={styles.TitulosectionDestino} >
-        <h1 id="DESTINO" >PRINCIPAIS DESTINOS</h1>
+      <div id="DESTINO" className={styles.TitulosectionDestino} >
+        <h1>PRINCIPAIS DESTINOS</h1>
       </div>
            
-      <div className={styles.sectionDestino} >        
+      <section className={styles.sectionDestino} >        
           <div className={styles.sectionDestinoPraia} >
             
             <div>
@@ -175,7 +176,30 @@ export default function Home() {
               </div>
             </div>
         </div>     
+      </section>
+
+      <div className={styles.TitulosectionDestino} >
+        <h1 id="EVENTOS" >CALENDÁRIO DE EVENTOS</h1>
       </div>
+
+      <section className={styles.sectionEventos} >
+        <div className={styles.sectionEventosContainer} >
+          
+            <div>Festa da Penha, em Vila Velha, sempre na segunda-feira após a Páscoa</div>
+            <div>Festival de Jazz & Bossa de Santa Teresa, no final de maio ou começo de junho</div>
+            <div>Os Passos de Anchieta, caminhada entre Vitória e a cidade de Anchieta, geralmente no feriado de Corpus Christi</div>
+            <div>Festa da Polenta, em Venda Nova do Imigrante, que ocorre em dois finais de semana de outubro</div>
+            <div>Festival de Forró de Itaúnas, em Conceição da Barra, que ocorre em dois finais de semana de julho</div>
+            <div>Festival de Inverno de Música Erudita e Popular de Domingos Martins, que ocorre em dois finais de semana de julho</div>
+            <div>Carnaval de Vitória, com desfile das escolas de Samba do Espírito Santo, sempre uma semana antes do Carnaval oficial</div>
+            <div>Festival de Inverno de Sanfona e Viola de São Pedro do Itabapoana, em Mimoso do Sul, que ocorre em dois finais de semana de julho</div>
+            <div>Festa de Corpus Christi de Castelo</div>
+            <div>Festivais Gastronômicos de Santa Teresa, Manguinhos e Guriri, em datas diversas</div>
+            <div>Festa do Imigrante Italiano de Santa Teresa, que ocorre em dois finais de semana de junho</div>
+            <div>Encontro Nacional de Folia de Reis, em Muqui, em agosto ou setembro</div>
+         
+        </div>
+      </section>
 
       
 
